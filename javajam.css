@@ -1,0 +1,228 @@
+body{
+	background-color: #F5F5DC;
+	color: #2E0000;
+	font-family: Verdana,Arial,sans-serif;
+	background-image: url(javabackground.gif);
+}
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: #E2D2B0;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #2E0000;
+}
+main{
+	padding: 20px;
+	background-color: #F5F5DC;
+	margin-left: 175px;
+	display: block;
+}
+main img{
+	float: left;
+	padding-right: 2em;
+}
+nav a:link{
+	color: #795240;
+}
+label{
+	float: left;
+	text-align: right;
+	width: 120px;
+	padding: 1px;
+}
+input, textarea{
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	margin-bottom: 130px;
+}
+
+nav a:visited{
+	color: #A58366;
+}
+nav a:hover{
+	background-color: #f5f5dc;
+	cursor: pointer;
+}
+header{
+	background-color: #D2B48C;
+}
+footer{
+	background-color: #D2B48C;
+	color: #000000;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+}
+a{
+	color: #2e0000;
+}
+main div{
+	overflow: auto;
+	font-size: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+nav{
+	float: left;
+	font-weight: bold;
+	text-align: center;
+	width: 160px;
+	padding: 10px 10px 10px 0px;
+}
+nav a{
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	-webkit-transition: background-color 3s ease-out;
+	-moz-transition: background-color 3s ease-out;
+	-o-transition: background-color 3s ease-out;
+	transition: background-color 3s ease-out;
+}
+h1, h2{
+	font-family: Georgia, 'Times New Roman', serif;
+}
+h1{
+	height: 100px;
+	margin: 0px;
+	background-image: url(javalogo.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px; 
+}
+h3{
+	background-color: #e6d6a9;
+	text-transform: uppercase;
+}
+dl{
+	font-weight: bold;
+}
+nav ul{
+	list-style-type: none;
+	padding-left: 0px;
+	font-size: 1.2em;
+}
+main ul{
+	list-style-image: url(marker.gif);
+	list-style-position: inside;
+}
+#hero{
+	height: 300px;
+	color: #F5F5DC;
+	background-image: url(heroroad.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+section{
+	margin-left: 20%;
+	margin-right: 20%;
+	overflow: auto;
+	font-size: 90%;
+}
+header, main, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+#mobile{
+	display: none;
+}
+#desktop{
+	display: inline;
+}
+table{
+	margin: auto;
+	width: 80%;
+}
+td, th{
+	padding: 10px;
+}
+tr:nth-of-type(odd){
+	background-color: #d2b48c;
+}
+audio{
+	float: clear;
+	padding-top: 20px;
+}
+@media only screen and (max-width: 64em){
+	body{
+		margin: 0;
+		background-color: #D2B48C;
+		background-image: none;
+	}
+	#wrapper{
+		min-width: 0;
+		width: auto;
+		box-shadow: none;
+	}
+	h1{
+		margin: 0;
+		background-image: url(javalogomobile.gif);
+	}
+	main{
+		margin-left: 0;
+	}
+	nav{
+		float: none;
+		width: auto;
+		padding: 0;
+	}
+	nav ul{
+		text-align: center;
+	}
+	nav li{
+		display: inline;
+		padding: 0, 0.75em, 0, 0.75em;
+	}
+}
+@media only screen and (max-width: 37.5em){
+	nav li{
+		display: inline-block;
+		width: 5em;
+		font-size: 120%;
+		text-align: center;
+		box-shadow: 2px #330000;
+		background-color: #f5f5dc;
+		margin: 1%;
+		padding: 2.5%;
+	}
+	nav a{
+		display: block;
+	}
+	main a:hover{
+		color: #333300;
+	}
+	main a:link{
+		color: #ffffff;
+	}
+	main a:visited{
+		color:#eaeaea;
+	}
+	main a:hover{
+		color:#ffd700;
+	}
+	section{
+		margin: 0;
+	}
+	section img{
+		background-image: none;
+	}
+	#hero{
+		height: auto;
+	}
+	#mobile{
+		display: inline;
+	}
+	#desktop{
+		display: none;
+	}
+	label{
+		float: none;
+		text-align: left;
+	}
+	input[type="submit"]{
+		margin-left: 0;
+	}
+}
